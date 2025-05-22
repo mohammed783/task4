@@ -1,0 +1,71 @@
+.hero-dad{
+    background-color: #EFF8FF;
+    padding-top: 90px;
+    height: calc(100vh - 80.36px);
+    position: relative;
+}
+.hero-dad h2{
+    font-size: 60px;
+    width: 40%;
+}
+@media (max-width:678px) {
+    .hero-dad h2{
+        font-size: 32px;
+    }
+}
+.hero-dad .gp{
+    color: gray;
+    width: 35%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.hero-dad .hero .hero-info{
+    display: flex;
+    background-color: white;
+    width: 60%;
+    border-radius: 16px;
+    justify-content: space-around;
+    padding: 20px 5px;
+}
+.hero-info .card{
+    display: flex;
+}
+.hero-info .card img{
+    margin-right: 15px;
+}
+.hero-info .card .c-ans{
+    margin-top: 10px;
+    color: gray;
+}
+
+.hero-pos .buld{
+    position: absolute;
+    right: 0%;
+    z-index: 1;
+    bottom: 0%;
+}
+@media (max-width:678px) {
+    h2
+    {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+    }
+    .gp{
+        position: absolute;
+        z-index: 2;
+        top: 250px;
+    }
+
+    .hero-dad .hero .hero-info{
+        position: absolute;
+        width: 100%;
+        flex-direction: column;
+        z-index: 1;
+        top: 300px;
+    }
+    .hero-pos .buld{
+       z-index: 0;
+      
+    }
+}

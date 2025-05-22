@@ -1,0 +1,42 @@
+.nav-con{
+    background-color: #EFF8FF;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+.nav-icon{
+    display: none;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-size:16px ;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+@media (max-width:687px) {
+    nav ul,
+    nav button{
+        display: none;
+    }
+    .nav-icon{
+        display: block;
+    }
+}
+
+nav button{
+    width: 135px;
+    padding: 13px 20px;
+    background-color: #025595;
+    color: white;
+    height: 38px;
+    border: none;
+    border-radius:6px ;
+}

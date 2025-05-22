@@ -1,0 +1,77 @@
+.deals-section {
+    padding: 2rem;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .section-subtitle {
+    color: #777;
+    margin-bottom: 1.5rem;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  
+  .tab {
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+    position: relative;
+    padding: 0.5rem 1rem;
+  }
+  
+  .tab.active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+  }
+  
+  .property-card {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .property-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .badges {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .badge {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  

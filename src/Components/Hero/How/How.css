@@ -1,0 +1,45 @@
+.how{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.how h3{
+    font-size: 39px;
+    margin-bottom: 20px;
+}
+.gray{
+    color: gray;
+}
+.how .gray{
+    margin-bottom: 20px;
+}
+.how .box-dad{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:678px) {
+    .how .box-dad{
+        flex-direction: column;
+    }
+}
+.how .box-dad .box{
+    width: 30%;
+    padding: 20px;
+}
+.how .box h4{
+    font-size: 22px;
+    padding-bottom: 10px;
+    }
+@media (max-width:678px) {
+    .how .box-dad .box{
+        width: 90%;
+    }
+}
+.how .box img{
+    margin-bottom: 20px;
+}
+
+.how .box-dad .active{
+    color: white;
+    background-color: #025595;
+    border-radius: 15px;
+}
