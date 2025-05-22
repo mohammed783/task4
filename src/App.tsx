@@ -12,18 +12,18 @@ import img5 from './assets/img5.png';
 import img6 from './assets/img6.png';
 ///////////////////////////////////////
 import RealEstateDeals from './Components/Best/Best'
-import r1 from './assets/res1.jpg';
-import r2 from './assets/res2.jpg';
-import r3 from './assets/res3.jpg';
-import c1 from './assets/com1.jpg';
-import c2 from './assets/com2.jpg';
-import c3 from './assets/com3.jpg';
-import a1 from './assets/agr1.jpg';
-import a2 from './assets/agr2.jpg';
-import a3 from './assets/agr3.jpg';
-import i1 from './assets/ind1.jpg';
-import i2 from './assets/ind2.jpg';
-import i3 from './assets/ind3.jpg';
+import r1 from './assets/r1.jpg';
+import r2 from './assets/r2.png';
+import r3 from './assets/r3.png';
+import c1 from './assets/r2.png';
+import c2 from './assets/r1.jpg';
+import c3 from './assets/r3.png';
+import a1 from './assets/r3.png';
+import a2 from './assets/r1.jpg';
+import a3 from './assets/r2.png';
+import i1 from './assets/r3.png';
+import i2 from './assets/r2.png';
+import i3 from './assets/r1.jpg';
 
 
 function App() {

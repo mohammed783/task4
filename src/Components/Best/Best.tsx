@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './RealEstateDeals.css';
+import './Best.css';
 
 type RealEstateDealsProps = {
   residential: string[];
