@@ -24,6 +24,7 @@ import a3 from './assets/r2.png';
 import i1 from './assets/r3.png';
 import i2 from './assets/r2.png';
 import i3 from './assets/r1.jpg';
+import Footer from './Components/Footer/Footer'
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
       agriculture={[a1, a2, a3]}
       industrial={[i1, i2, i3]}
     />
+    <Footer />
     </>
   )
 }
